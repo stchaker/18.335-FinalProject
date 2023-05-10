@@ -1,0 +1,10 @@
+﻿ 1. Scipy LOBPCG Implementation https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.lobpcg.html#scipy.sparse.linalg.lobpcg
+
+ 2. LOBPCG wikipedia article
+https://en.wikipedia.org/wiki/LOBPCG
+
+ 3. openmc
+https://docs.openmc.org/en/stable/
+
+
+
