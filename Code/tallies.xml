@@ -1,37 +1,37 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <tallies>
-  <filter id="107" type="cell">
+  <filter id="48" type="cell">
     <bins>1 2 3</bins>
   </filter>
-  <filter id="61" type="energy">
+  <filter id="2" type="energy">
     <bins>0.0 20000000.0</bins>
   </filter>
-  <filter id="68" type="energyout">
+  <filter id="9" type="energyout">
     <bins>0.0 20000000.0</bins>
   </filter>
-  <filter id="69" type="legendre">
+  <filter id="10" type="legendre">
     <order>0</order>
   </filter>
-  <tally id="104">
-    <filters>107 61</filters>
+  <tally id="48">
+    <filters>48 2</filters>
     <nuclides>total</nuclides>
     <scores>flux total absorption nu-fission</scores>
     <estimator>tracklength</estimator>
   </tally>
-  <tally id="111">
-    <filters>107 61</filters>
+  <tally id="55">
+    <filters>48 2</filters>
     <nuclides>total</nuclides>
     <scores>flux nu-fission</scores>
     <estimator>analog</estimator>
   </tally>
-  <tally id="108">
-    <filters>107 61 68 69</filters>
+  <tally id="52">
+    <filters>48 2 9 10</filters>
     <nuclides>total</nuclides>
     <scores>scatter</scores>
     <estimator>analog</estimator>
   </tally>
-  <tally id="112">
-    <filters>107 68</filters>
+  <tally id="56">
+    <filters>48 9</filters>
     <nuclides>total</nuclides>
     <scores>nu-fission</scores>
     <estimator>analog</estimator>
